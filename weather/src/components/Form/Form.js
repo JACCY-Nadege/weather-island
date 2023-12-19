@@ -7,7 +7,7 @@ function Form ()  {
    }
 
    return <form onSubmit={handleSubmit}>
-      <input type="text" name="country" defaultValue=""/>
+      <input type="text" name="country" defaultValue="ville"/>
       <button>Rechercher</button>
    </form>
 
